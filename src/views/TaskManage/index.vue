@@ -468,11 +468,11 @@ addTask(this.form.machineID,sampleNos,this.sortedData[this.sortedData.length  - 
 },
 deleteTask(row)
 {
-  debugger
-  console.log("删除"+row[0].id);
-  deleteTask1(row[0].id).then(res=>{
-     this.$message({message: '删除成功', type: 'success'});
-  })
+  // debugger
+  // console.log("删除"+row[0].id);
+  // deleteTask1(row[0].id).then(res=>{
+  //    this.$message({message: '删除成功', type: 'success'});
+  // })
 }
 
         

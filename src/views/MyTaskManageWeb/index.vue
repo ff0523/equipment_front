@@ -48,7 +48,7 @@
               </div>
               <div>
                 <el-button-group class="crud-opts-left" v-show="buttonsShow">
-                  <el-button  size="mini"  icon="el-icon-plus" :disabled="unUseful0(info.equipmentId)" @click="toOpenAddDialog(info.equipmentId)">新增</el-button>
+                  <el-button  size="mini"  icon="el-icon-plus" :disabled="unUseful0(info.equipmentId)" @click="toOpenAddDialog(info.equipmentId)">新增2</el-button>
                   <el-button  size="mini"  icon="el-icon-plus" :disabled="unUseful0(info.equipmentId)" @click="toOpenImportDialog(info.equipmentId)">导入</el-button>
                   <el-button  size="mini"  icon="el-icon-plus" :disabled="unUseful1(info.equipmentId)" @click="toOpenUpdateDialog(info.equipmentId)">修改</el-button>
                   <el-button  size="mini"  icon="el-icon-plus" :disabled="unUseful1(info.equipmentId)" @click="up(info.equipmentId)">上移</el-button>

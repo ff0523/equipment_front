@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import MyTaskManage from '@/views/MyTaskManage'
-import MyTaskManageDing from '@/views/MyTaskManageDing'
+import MyTaskManageWeb from '@/views/MyTaskManageWeb'
+import MyTaskManagePhone from '@/views/MyTaskManagePhone'
 import EquipmentManage from '@/views/EquipmentManage'
 import TaskManage from '@/views/TaskManage'
 
@@ -11,14 +11,14 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/MyTaskManage',
-      name: 'MyTaskManage',
-      component: MyTaskManage
+      path: '/MyTaskManageWeb',
+      name: 'MyTaskManageWeb',
+      component: MyTaskManageWeb
     },
     {
-      path: '/MyTaskManageDing',
-      name: 'MyTaskManageDing',
-      component: MyTaskManageDing
+      path: '/MyTaskManagePhone',
+      name: 'MyTaskManagePhone',
+      component: MyTaskManagePhone
     },
     {
       path: '/EquipmentManage',
